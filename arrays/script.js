@@ -1,0 +1,10 @@
+var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+array.shift();
+console.log(array);
+array.sort();
+console.log(array);
+array.push("Kiwi");
+console.log(array);
+var indice = array.indexOf("Apples");
+array.splice(indice, 1);
+console.log(array);

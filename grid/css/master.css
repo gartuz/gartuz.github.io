@@ -1,0 +1,56 @@
+.zone{
+  font-size: 10em;
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  grid-template-rows: 1fr;
+}
+
+
+
+.green{
+  background-image: linear-gradient(green, yellow);
+  grid-column: span 2;
+
+}
+
+
+
+.green:hover{
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.red{
+  background-image: linear-gradient(red, orange);
+}
+
+.red:hover{
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.purple{
+  background-image: linear-gradient(purple, blue);
+}
+
+.purple:hover{
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.yellow{
+  background-image: linear-gradient(yellow, grey);
+}
+
+.yellow:hover{
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.75);
+}

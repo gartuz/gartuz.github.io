@@ -1,0 +1,21 @@
+.container{
+  display: flex;
+
+  flex-direction: column;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  transition: all 1.5s linear;
+}
+.strawberry0:hover{
+  transform: translateX(200px);
+}
+.strawberry1:hover{
+  transform: rotate(1080deg);
+}
+
+.hat{
+  order:2;
+}

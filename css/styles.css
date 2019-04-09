@@ -1,0 +1,23 @@
+body{
+  background-image: url(images/whitepage.jpg);
+  background-size: cover;
+}
+
+h2{
+  color: #532B72;
+  text-align: center;
+  cursor: pointer;
+}
+
+h2:hover{
+  border: 5px dashed rgba(83, 43, 114, 0.5);
+}
+
+li{
+    list-style: none;
+}
+
+
+.table h1>p:last-child{
+    color: purple;
+}
